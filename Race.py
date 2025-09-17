@@ -6,7 +6,7 @@ class Horse:
     def __init__(self, speed, y, image, window):
         self.x_pos = 50
         self.y_pos = y
-        self.image = graphics.Image(graphics.Point(self.x_pos,self.y_pos),image)
+        self.image = graphics.Image(graphics.Point(self.x_pos, self.y_pos), image)
         self.window = window
         self.dice = Dice.Dice(speed)
 
@@ -28,7 +28,7 @@ class Horse:
 def main():
     window = graphics.GraphWin("background", 700, 350)
     finish_x = 650
-    finish_line = graphics.Line(graphics.Point(650,0),graphics.Point(650,350))
+    finish_line = graphics.Line(graphics.Point(650, 0), graphics.Point(650, 350))
     horse_1 = Horse(9,100,"Knight.gif", window)
     horse_2 = Horse(10,200,"Wizard.gif", window)
 
