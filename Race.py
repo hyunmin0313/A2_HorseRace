@@ -4,7 +4,7 @@ import time
 
 class Horse:
     def __init__(self, speed, y, image, window):
-        self.x_pos = 50
+        self.x_pos = 0
         self.y_pos = y
         self.image = graphics.Image(graphics.Point(self.x_pos, self.y_pos), image)
         self.window = window
