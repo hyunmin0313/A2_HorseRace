@@ -1,7 +1,11 @@
+#u1596494
 import Dice
 import graphics
 import time
 
+'''
+Represents a horse in the race
+'''
 class Horse:
     def __init__(self, speed, y, image, window):
         self.x_pos = 0
@@ -24,7 +28,9 @@ class Horse:
             return True
         return False
 
-
+'''
+main function
+'''
 def main():
     window = graphics.GraphWin("background", 700, 350)
     finish_x = 650
